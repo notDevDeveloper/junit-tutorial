@@ -10,7 +10,7 @@ public interface AccountService {
 
     Account updateAccount(Account account);
 
-    Account removeAccount(Account account);
+    boolean removeAccount(Account account);
 
     List<Transaction> listAllTransactions(Account account);
 
